@@ -68,5 +68,4 @@ public class Brand implements Serializable {
     @TableField("brand_story")
     private String brandStory;
 
-
 }

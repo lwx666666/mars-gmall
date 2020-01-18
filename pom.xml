@@ -12,6 +12,7 @@
         <module>gmall-common</module>
         <module>gmall-api</module>
         <module>gmall-mbg</module>
+        <module>gmall-pms</module>
     </modules>
 
     <!-- 父工程只用于聚合 -->
