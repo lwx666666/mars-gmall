@@ -16,7 +16,7 @@ import java.sql.SQLException;
 @Configuration
 public class PmsDataSourceConfig {
 
-    @Bean
+//    @Bean
     public DataSource dataSource() throws IOException, SQLException {
         File shardingJdbcFile = ResourceUtils.getFile("classpath:sharding-jdbc.yml");
         DataSource dataSource = MasterSlaveDataSourceFactory.createDataSource(shardingJdbcFile);
